@@ -1,38 +1,41 @@
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
 
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-h1  {
-  font-family: 'Montserrat-Black', sans-serif;
-  font-weight: 900;
-  font-size: 3.7rem;
-  line-height: 1.5;
-}
-
-h2 {
+h1, h2, h3, h4, h5, h6  {
   font-family: "Montserrat";
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
+  font-weight: bold;
 }
 
 h3 {
-  font-family: "Montserrat";
   font-size: 1.5rem;
-  font-weight: bold;
 }
 
 p {
   color: #8f8f8f;
 }
 
+/* Headings */
+.big-heading {
+  font-weight: 900;
+  font-size: 3.7rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .container-fluid {
-  padding: 3% 15% 12%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -74,13 +77,8 @@ p {
 
 /* features */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
-}
-
-.row {
-  text-align: center;
 }
 
 .feature-box {
@@ -97,15 +95,23 @@ p {
   color: #ff4c68;
 }
 
-/* Testimonials */
-#testimonials {
-  background-color: #ef8172;
-  text-align: center;
+.feature-title {
+  font-height: 1.5rem;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
   color: #fff;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.white-section {
+  background-color: #fff;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #ef8172;
 }
 
 .testimonial-image {
@@ -114,9 +120,13 @@ p {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -127,7 +137,6 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
   margin: auto;
 }
 
@@ -135,23 +144,9 @@ p {
   padding: 3% 2%;
 }
 
-#cta {
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 15%;
-  color: #fff;
-}
-
-.cta-header {
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 3.5rem;
+.price-text {
+  font-size: 3rem;
   line-height: 1.5;
-}
-
-#footer {
-  padding: 7% 15%;
-  text-align: center;
 }
 
 .icons {
